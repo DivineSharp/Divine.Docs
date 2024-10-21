@@ -1,0 +1,1652 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Vector3Extensions | Divine </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Vector3Extensions | Divine ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DivineSharp/Divine/new/main/apiSpec/new?filename=Divine_Extensions_Vector3Extensions.md&amp;value=---%0Auid%3A%20Divine.Extensions.Vector3Extensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Divine">
+            Divine
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Divine.Extensions.Vector3Extensions">
+
+
+
+  <h1 id="Divine_Extensions_Vector3Extensions" data-uid="Divine.Extensions.Vector3Extensions" class="text-break">
+Class Vector3Extensions  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Divine.html">Divine</a>.<a class="xref" href="Divine.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Divine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Vector3Extensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Vector3Extensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Divine_Extensions_Vector3Extensions_AngleBetween_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_AngleBetween_Divine_Numerics_Vector3_Divine_Numerics_Vector2_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween(Divine.Numerics.Vector3,Divine.Numerics.Vector2)">
+  AngleBetween(Vector3, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AngleBetween(this Vector3 vector3, Vector2 toVector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_AngleBetween_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_AngleBetween_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
+  AngleBetween(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AngleBetween(this Vector3 vector3, Vector3 toVector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_AngleBetween_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_AngleBetween_Divine_Numerics_Vector3_Divine_Numerics_Vector4_" data-uid="Divine.Extensions.Vector3Extensions.AngleBetween(Divine.Numerics.Vector3,Divine.Numerics.Vector4)">
+  AngleBetween(Vector3, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float AngleBetween(this Vector3 vector3, Vector4 toVector4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Closest_" data-uid="Divine.Extensions.Vector3Extensions.Closest*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Closest_Divine_Numerics_Vector3_System_Collections_Generic_IEnumerable_Divine_Numerics_Vector2__" data-uid="Divine.Extensions.Vector3Extensions.Closest(Divine.Numerics.Vector3,System.Collections.Generic.IEnumerable{Divine.Numerics.Vector2})">
+  Closest(Vector3, IEnumerable&lt;Vector2&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Closest(this Vector3 vector3, IEnumerable&lt;Vector2&gt; array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Closest_" data-uid="Divine.Extensions.Vector3Extensions.Closest*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Closest_Divine_Numerics_Vector3_System_Collections_Generic_IEnumerable_Divine_Numerics_Vector3__" data-uid="Divine.Extensions.Vector3Extensions.Closest(Divine.Numerics.Vector3,System.Collections.Generic.IEnumerable{Divine.Numerics.Vector3})">
+  Closest(Vector3, IEnumerable&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Closest(this Vector3 vector3, IEnumerable&lt;Vector3&gt; array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Closest_" data-uid="Divine.Extensions.Vector3Extensions.Closest*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Closest_Divine_Numerics_Vector3_System_Collections_Generic_IEnumerable_Divine_Numerics_Vector4__" data-uid="Divine.Extensions.Vector3Extensions.Closest(Divine.Numerics.Vector3,System.Collections.Generic.IEnumerable{Divine.Numerics.Vector4})">
+  Closest(Vector3, IEnumerable&lt;Vector4&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 Closest(this Vector3 vector3, IEnumerable&lt;Vector4&gt; array)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance_" data-uid="Divine.Extensions.Vector3Extensions.Distance*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance_Divine_Numerics_Vector3_Divine_Numerics_Vector2_" data-uid="Divine.Extensions.Vector3Extensions.Distance(Divine.Numerics.Vector3,Divine.Numerics.Vector2)">
+  Distance(Vector3, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance(this Vector3 vector3, Vector2 toVector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance_" data-uid="Divine.Extensions.Vector3Extensions.Distance*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.Distance(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
+  Distance(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance(this Vector3 vector3, Vector3 toVector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance_" data-uid="Divine.Extensions.Vector3Extensions.Distance*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance_Divine_Numerics_Vector3_Divine_Numerics_Vector4_" data-uid="Divine.Extensions.Vector3Extensions.Distance(Divine.Numerics.Vector3,Divine.Numerics.Vector4)">
+  Distance(Vector3, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance(this Vector3 vector3, Vector4 toVector4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance2D_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance2D_Divine_Numerics_Vector3_Divine_Numerics_Vector2_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D(Divine.Numerics.Vector3,Divine.Numerics.Vector2)">
+  Distance2D(Vector3, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance2D(this Vector3 vector3, Vector2 toVector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance2D_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance2D_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
+  Distance2D(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance2D(this Vector3 vector3, Vector3 toVector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Distance2D_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Distance2D_Divine_Numerics_Vector3_Divine_Numerics_Vector4_" data-uid="Divine.Extensions.Vector3Extensions.Distance2D(Divine.Numerics.Vector3,Divine.Numerics.Vector4)">
+  Distance2D(Vector3, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Distance2D(this Vector3 vector3, Vector4 toVector4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_DistanceSquared_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_DistanceSquared_Divine_Numerics_Vector3_Divine_Numerics_Vector2_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared(Divine.Numerics.Vector3,Divine.Numerics.Vector2)">
+  DistanceSquared(Vector3, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float DistanceSquared(this Vector3 vector3, Vector2 toVector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_DistanceSquared_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_DistanceSquared_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
+  DistanceSquared(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float DistanceSquared(this Vector3 vector3, Vector3 toVector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_DistanceSquared_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_DistanceSquared_Divine_Numerics_Vector3_Divine_Numerics_Vector4_" data-uid="Divine.Extensions.Vector3Extensions.DistanceSquared(Divine.Numerics.Vector3,Divine.Numerics.Vector4)">
+  DistanceSquared(Vector3, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float DistanceSquared(this Vector3 vector3, Vector4 toVector4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Extend_" data-uid="Divine.Extensions.Vector3Extensions.Extend*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Extend_Divine_Numerics_Vector3_Divine_Numerics_Vector2_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.Extend(Divine.Numerics.Vector3,Divine.Numerics.Vector2,System.Single)">
+  Extend(Vector3, Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Extend(this Vector3 vector3, Vector2 toVector2, float distance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>distance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Extend_" data-uid="Divine.Extensions.Vector3Extensions.Extend*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Extend_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.Extend(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Single)">
+  Extend(Vector3, Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Extend(this Vector3 vector3, Vector3 toVector3, float distance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>distance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Extend_" data-uid="Divine.Extensions.Vector3Extensions.Extend*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Extend_Divine_Numerics_Vector3_Divine_Numerics_Vector4_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.Extend(Divine.Numerics.Vector3,Divine.Numerics.Vector4,System.Single)">
+  Extend(Vector3, Vector4, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Extend(this Vector3 vector3, Vector4 toVector4, float distance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+    <dt><code>distance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_GetPathLength_" data-uid="Divine.Extensions.Vector3Extensions.GetPathLength*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_GetPathLength_System_Collections_Generic_List_Divine_Numerics_Vector3__" data-uid="Divine.Extensions.Vector3Extensions.GetPathLength(System.Collections.Generic.List{Divine.Numerics.Vector3})">
+  GetPathLength(List&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetPathLength(this List&lt;Vector3&gt; path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsInRange_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsInRange_Divine_Numerics_Vector3_Divine_Entity_Entities_Entity_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange(Divine.Numerics.Vector3,Divine.Entity.Entities.Entity,System.Single)">
+  IsInRange(Vector3, Entity, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this Vector3 sourcePosition, Entity target, float range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sourcePosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>target</code> <a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a></dt>
+    <dd></dd>
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsInRange_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsInRange_Divine_Numerics_Vector3_Divine_Numerics_Vector2_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange(Divine.Numerics.Vector3,Divine.Numerics.Vector2,System.Single)">
+  IsInRange(Vector3, Vector2, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this Vector3 sourcePosition, Vector2 targetPosition, float range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sourcePosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>targetPosition</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsInRange_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsInRange_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.IsInRange(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Single)">
+  IsInRange(Vector3, Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this Vector3 sourcePosition, Vector3 targetPosition, float range)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sourcePosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>targetPosition</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>range</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsOnScreen_" data-uid="Divine.Extensions.Vector3Extensions.IsOnScreen*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsOnScreen_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.IsOnScreen(Divine.Numerics.Vector3)">
+  IsOnScreen(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOnScreen(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsOrthogonal_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsOrthogonal_Divine_Numerics_Vector3_Divine_Numerics_Vector2_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal(Divine.Numerics.Vector3,Divine.Numerics.Vector2)">
+  IsOrthogonal(Vector3, Vector2)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOrthogonal(Vector3 vector3, Vector2 toVector2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector2</code> <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsOrthogonal_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsOrthogonal_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">
+  IsOrthogonal(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOrthogonal(Vector3 vector3, Vector3 toVector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsOrthogonal_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsOrthogonal_Divine_Numerics_Vector3_Divine_Numerics_Vector4_" data-uid="Divine.Extensions.Vector3Extensions.IsOrthogonal(Divine.Numerics.Vector3,Divine.Numerics.Vector4)">
+  IsOrthogonal(Vector3, Vector4)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsOrthogonal(Vector3 vector3, Vector4 toVector4)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>toVector4</code> <a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsValid_" data-uid="Divine.Extensions.Vector3Extensions.IsValid*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsValid_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.IsValid(Divine.Numerics.Vector3)">
+  IsValid(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValid(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_IsWall_" data-uid="Divine.Extensions.Vector3Extensions.IsWall*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_IsWall_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.IsWall(Divine.Numerics.Vector3)">
+  IsWall(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsWall(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Magnitude_" data-uid="Divine.Extensions.Vector3Extensions.Magnitude*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Magnitude_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.Magnitude(Divine.Numerics.Vector3)">
+  Magnitude(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Magnitude(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Normalized_" data-uid="Divine.Extensions.Vector3Extensions.Normalized*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Normalized_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.Normalized(Divine.Numerics.Vector3)">
+  Normalized(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Normalized(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_PathLength_" data-uid="Divine.Extensions.Vector3Extensions.PathLength*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_PathLength_System_Collections_Generic_List_Divine_Numerics_Vector3__" data-uid="Divine.Extensions.Vector3Extensions.PathLength(System.Collections.Generic.List{Divine.Numerics.Vector3})">
+  PathLength(List&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float PathLength(this List&lt;Vector3&gt; path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Perpendicular_" data-uid="Divine.Extensions.Vector3Extensions.Perpendicular*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Perpendicular_Divine_Numerics_Vector3_System_Int32_" data-uid="Divine.Extensions.Vector3Extensions.Perpendicular(Divine.Numerics.Vector3,System.Int32)">
+  Perpendicular(Vector3, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Perpendicular(this Vector3 vector3, int offset = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Polar_" data-uid="Divine.Extensions.Vector3Extensions.Polar*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Polar_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.Polar(Divine.Numerics.Vector3)">
+  Polar(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Polar(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_Rotated_" data-uid="Divine.Extensions.Vector3Extensions.Rotated*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_Rotated_Divine_Numerics_Vector3_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.Rotated(Divine.Numerics.Vector3,System.Single)">
+  Rotated(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Rotated(this Vector3 vector3, float angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_SetZ_" data-uid="Divine.Extensions.Vector3Extensions.SetZ*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_SetZ_Divine_Numerics_Vector3_System_Nullable_System_Single__" data-uid="Divine.Extensions.Vector3Extensions.SetZ(Divine.Numerics.Vector3,System.Nullable{System.Single})">
+  SetZ(Vector3, float?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 SetZ(this Vector3 v, float? value = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_ToVector2_" data-uid="Divine.Extensions.Vector3Extensions.ToVector2*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_ToVector2_Divine_Numerics_Vector3_" data-uid="Divine.Extensions.Vector3Extensions.ToVector2(Divine.Numerics.Vector3)">
+  ToVector2(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ToVector2(this Vector3 vector3)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_ToVector2_" data-uid="Divine.Extensions.Vector3Extensions.ToVector2*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_ToVector2_System_Collections_Generic_List_Divine_Numerics_Vector3__" data-uid="Divine.Extensions.Vector3Extensions.ToVector2(System.Collections.Generic.List{Divine.Numerics.Vector3})">
+  ToVector2(List&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Vector2&gt; ToVector2(this List&lt;Vector3&gt; path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_ToVector4_" data-uid="Divine.Extensions.Vector3Extensions.ToVector4*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_ToVector4_Divine_Numerics_Vector3_System_Single_" data-uid="Divine.Extensions.Vector3Extensions.ToVector4(Divine.Numerics.Vector3,System.Single)">
+  ToVector4(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 ToVector4(this Vector3 vector3, float w = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector3</code> <a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>w</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Divine_Extensions_Vector3Extensions_ToVector4_" data-uid="Divine.Extensions.Vector3Extensions.ToVector4*"></a>
+
+  <h3 id="Divine_Extensions_Vector3Extensions_ToVector4_System_Collections_Generic_List_Divine_Numerics_Vector3__" data-uid="Divine.Extensions.Vector3Extensions.ToVector4(System.Collections.Generic.List{Divine.Numerics.Vector3})">
+  ToVector4(List&lt;Vector3&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Vector4&gt; ToVector4(this List&lt;Vector3&gt; path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Divine.Numerics.Vector4.html">Vector4</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DivineSharp/Divine/blob/main/Extensions/Vector3Extensions.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
